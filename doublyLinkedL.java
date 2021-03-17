@@ -6,16 +6,23 @@ public class doublyLinkedL {
     private Node tail;
     private int length;
 
-    public doublyLinkedL(Node head, Node tail) {
+    public doublyLinkedL(int[] arr) {
         this.head = null;
         this.tail = null;
         this.length = 0;
+        for (int i=0;i<arr.length;i++)
+            this.add(arr[i]);
     }
 
     public doublyLinkedL() {
         this.head = null;
         this.tail = null;
         this.length = 0;
+    }
+    public doublyLinkedL(int data) {
+        this.head = new Node(data);
+        this.tail = null;
+        this.length = 1;
     }
 
     public boolean isEmpty()
@@ -169,7 +176,7 @@ public class doublyLinkedL {
     {
 
     }
-    public void bubbleSort()
+    public void mergeSort()
     {
 
     }
@@ -223,7 +230,29 @@ public class doublyLinkedL {
         return iter;
     }
 
+    public doublyLinkedL subList(int end)
+    {
+        Node iter = head;
+        doublyLinkedL subList = new doublyLinkedL(iter.data);
+        for (int i =0; i<end;i++)
+        {
+            iter = iter.next;
+            subList.add(iter.data);
+        }
+        return subList;
+    }
 
+    public doublyLinkedL subList(int start, int end)
+    {
+        Node iter = takeNodebyIndex(start);
+        doublyLinkedL subList = new doublyLinkedL(iter.data);
+        for (int i =0; i<end-start;i++)
+        {
+            iter = iter.next;
+            subList.add(iter.data);
+        }
+        return subList;
+    }
     public class Node {
         private int data;
         private Node next;
