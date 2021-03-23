@@ -1,17 +1,17 @@
 import javax.management.NotificationEmitter;
 
-public class clist {
+public class CircularLinkedList {
 
     Node head;
     Node tail;
 
-    public clist(int data) {
+    public CircularLinkedList(int data) {
         head = new Node(data);
         head.next = tail;
 
     }
 
-    public clist() {
+    public CircularLinkedList() {
         head = null;
         tail = null;
     }
