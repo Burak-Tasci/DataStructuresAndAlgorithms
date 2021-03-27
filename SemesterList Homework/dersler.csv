@@ -1,0 +1,54 @@
+Yarıyıl,DersKodu,Ders
+1,BLM1001,Bilgisayar Mühendisliğine Giriş
+1,BLM1003,Algoritma ve Programlamaya Giriş
+1,FZK1071,Fizik I
+1,KMY1020,Kimya
+1,MAT1085,Matematik I
+1,MAT1087,Lineer Cebir
+1,TRD121,Türk Dili I
+1,YDZx121,Yabancı Dil(Ders 1)
+2,BLM1002,Bilgisayar Programlama I
+2,BLM1004,Bilgisayar Donanımı
+2,FZK1072,Fizik II
+2,ISG1081,İş Sağlığı ve Güvenliği
+2,MAT1086,Matematik II
+2,TF2010,Bilimsel Araştırma ve Sunum Teknikleri
+2,TRD122,Türk Dili II
+2,YDZx122,Yabancı Dil II
+3,BLM2001,Bilgisayar Programlama II
+3,BLM2003,İnsan-Bilgisayar Etkileşimi ve Görsellik
+3,BLM2005,Nesne Yönelimli Programlama
+3,BLM2007,Mantık Devreleri
+3,BLM2019,Ayrık Matematik
+3,MAT2085,Diferansiyel Denklemler
+4,BLM2002,Veri Yapıları ve Algoritmalar
+4,BLM2006,Bilgisayar Ağlarına Giriş
+4,BLM2008,Mikroişlemciler
+4,BLM2010,Elektronik Devrelere Giriş
+4,IST3045,Mühendisler için İstatistik
+4,MAT2086,Sayısal Analiz
+5,BLM3000,Staj I
+5,BLM3001,Veritabanı Yönetim Sistemleri
+5,BLM3003,İşletim Sistemleri
+5,BLM3005,Sinyaller ve Sistemlere Giriş
+5,BLM3007,Mikrodenetleyiciler
+5,BLM-TS,Teknik Seçimlik Ders-1-2-3
+5,BLM-TS,Teknik Seçimlik Ders-1-2-3
+5,BLM-TS,Teknik Seçimlik Ders-1-2-3
+6,BLM3004,Bilgisayar Organizasyonu ve Mimarisi
+6,BLM3006,Web Programlama
+6,BLM3008,Yazılım Mühendisliği
+6,BLM3010,Sistem Programlama
+6,BLM-TS,Teknik Seçimlik Ders-4-5-6
+6,BLM-TS,Teknik Seçimlik Ders-4-5-6
+6,BLM-TS,Teknik Seçimlik Ders-4-5-6
+7,ATA121,Atatürk İlkeleri ve İnkılap Tarihi I
+7,BLM4000,Staj II
+7,BLM4001,İş Yeri Eğitimi
+8,ATA122,Atatürk İlkeleri ve İnkılap Tarihi II
+8,BLM4002,Sistem ve Sunucu Yönetimi
+8,BLM4098,Bitirme Projesi
+8,BLM-TS,Teknik Seçimlik Ders-7-8-9
+8,BLM-TS,Teknik Seçimlik Ders-7-8-9
+8,BLM-TS,Teknik Seçimlik Ders-7-8-9
+8,YDI2025,Teknik İngilizce
